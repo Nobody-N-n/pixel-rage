@@ -7,6 +7,7 @@ O jogo é um site estático, sem dependências de runtime. O build copia o HTML,
 Requer Node.js 20 ou posterior, sem instalar pacotes:
 
 ```sh
+npm test
 npm run build
 ```
 
