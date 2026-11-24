@@ -1,0 +1,1 @@
+export function overlaps(a,b){return a.x<b.x+b.w&&a.x+a.w>b.x&&a.y<b.y+b.h&&a.y+a.h>b.y}export function getHurtbox(f){return{x:f.x-18,y:f.y-88+(f.crouching?22:0),w:36,h:f.crouching?84:86}}export function getHitbox(f,a){const reach=a.data.reach;return{x:f.facing===1?f.x+13:f.x-13-reach,y:f.y-a.data.height,w:reach,h:a.data.height}}
